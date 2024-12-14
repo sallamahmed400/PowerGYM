@@ -1,0 +1,51 @@
+.home{
+    background-image: url(../img/home\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.home1{
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.home2 h2{
+    color: aliceblue;
+}
+.home2 p{
+    color: rgb(255, 166, 0);
+    font-size: 20px;
+}
+.home2 h2::after{
+    content: "";
+    animation-name: ahmed;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    color: orange;
+}
+@keyframes ahmed {
+    0%{content: "|";}
+    10%{content: "P";}
+    20%{content: "Po";}
+    30%{content: "Pow";}
+    40%{content: "Powe";}  
+    50%{content: "Power";}
+    60%{content: "Power G";}
+    70%{content: "Power GY";}
+    80%{content: "Power GYM";}
+    90%{content: "";}
+    100%{content: "";}
+    
+}
+.regist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+  
+}
+.regist i {
+    margin: 0px 5px 0px;
+}
